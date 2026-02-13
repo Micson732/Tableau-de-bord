@@ -1,0 +1,21 @@
+// $validated = $request->validate([
+        //     'name' => 'required|string|max:255',
+        //     'email' => 'required|string|email|max:255|unique:users',
+        //     'password' => 'required|string|min:8|confirmed',
+        // ]);
+
+        // try {
+        //     // Création de l'utilisateur
+        //     $user = User::create([
+        //         'name' => $validated['name'],
+        //         'email' => $validated['email'],
+        //         'password' => Hash::make($validated['password']),
+        //     ]);
+
+        //     return redirect()->route('user.index')->with('success', 'Utilisateur créé avec succès!');
+            
+        // } catch (\Exception $e) {
+        //     return redirect()->back()
+        //         ->withInput()
+        //         ->with('error', 'Une erreur est survenue lors de la création de l\'utilisateur: ' . $e->getMessage());
+        // }
